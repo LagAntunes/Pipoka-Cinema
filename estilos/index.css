@@ -1,0 +1,25 @@
+/* início da formatação do header */
+    .cabeçalho {
+        background-color: black;
+    }
+
+    .div-logo {
+        border: 1px solid red;
+    }
+
+    .div-logo:hover .cor1 {
+        color: yellow;
+    }
+
+    .div-logo:hover .cor2 {
+        color: red;
+    }
+/* fim da formatação do header */
+
+/* início da formatação da section de apresentação (página inicial) */
+
+/* fim da formatação da section de apresentação (página inicial) */
+
+/* início da formatação do footer */
+
+/* fim da formatação do footer */

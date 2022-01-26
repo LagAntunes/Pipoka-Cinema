@@ -1,0 +1,20 @@
+/* adição das fontes adicionadas */
+
+@font-face {
+    font-family: "Monoton-Regular";
+    src: url("../fontes/Monoton-Regular.ttf");
+}
+
+.fonte {
+    font-family: "Monoton-Regular";
+}
+
+.cor1 {
+    color: red;
+    font-size: 1.2em;
+}
+
+.cor2 {
+    color: yellow;
+    font-size: 1.2em;
+}
