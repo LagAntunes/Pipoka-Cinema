@@ -7,11 +7,15 @@
         border: 1px solid red;
     }
 
-    .div-logo:hover .cor1 {
+    .div-logo a {
+        text-decoration: none;
+    }
+
+    .div-span:hover .cor1 {
         color: yellow;
     }
 
-    .div-logo:hover .cor2 {
+    .div-span:hover .cor2 {
         color: red;
     }
 /* fim da formatação do header */
