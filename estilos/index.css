@@ -1,10 +1,13 @@
 /* início da formatação do header */
     .cabeçalho {
         background-color: black;
+        padding: 1.2%;
+        width: 100%;
+        display: flex;
     }
 
     .div-logo {
-        border: 1px solid red;
+        width: 75%;
     }
 
     .div-logo a {
@@ -17,6 +20,10 @@
 
     .div-span:hover .cor2 {
         color: red;
+    }
+
+    .div-navegação {
+        width: 25%;
     }
 /* fim da formatação do header */
 
