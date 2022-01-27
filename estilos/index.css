@@ -10,6 +10,10 @@
         width: 75%;
     }
 
+    .div-link-logo {
+        width: fit-content;
+    }
+
     .div-logo a {
         text-decoration: none;
     }
