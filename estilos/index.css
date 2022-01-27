@@ -4,10 +4,11 @@
         padding: 1.2%;
         width: 100%;
         display: flex;
+        align-items: center;
     }
 
     .div-logo {
-        width: 75%;
+        width: 60%;
     }
 
     .div-link-logo {
@@ -19,15 +20,25 @@
     }
 
     .div-span:hover .cor1 {
-        color: yellow;
+        color: white;
     }
 
     .div-span:hover .cor2 {
-        color: red;
+        color: yellow;
     }
 
     .div-navegação {
-        width: 25%;
+        width: 40%;
+    }
+
+    .link-item a {
+        color: yellow;
+        font-size: larger;
+        margin-left: 40px;
+    }
+
+    .link-item a:hover {
+        color: white;
     }
 /* fim da formatação do header */
 
