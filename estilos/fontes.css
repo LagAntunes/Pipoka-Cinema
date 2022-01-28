@@ -1,16 +1,16 @@
 /* adição das fontes adicionadas */
 
 @font-face {
-    font-family: "Monoton-Regular";
-    src: url("../fontes/Monoton-Regular.ttf");
+    font-family: "AVENGEANCE\ HEROIC\ AVENGER";
+    src: url("../fontes/AVENGEANCE\ HEROIC\ AVENGER.ttf");
 }
 
 .fonte {
-    font-family: "Monoton-Regular";
+    font-family: "AVENGEANCE\ HEROIC\ AVENGER";
 }
 
 .cor1 {
-    color: yellow;
+    color: rgb(66, 80, 204);
     font-size: 1.2em;
 }
 
