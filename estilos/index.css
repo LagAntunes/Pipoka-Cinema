@@ -49,15 +49,7 @@
 /* fim da formatação do header */
 
 /* início da formatação da section de apresentação (página inicial) */
-    #div-video {
-        height: 100%;
-        width: 100%;
-    }    
-
-    #meuVideo {
-        min-width: 100%;
-        min-height: 100%;
-    }
+    
 /* fim da formatação da section de apresentação (página inicial) */
 
 /* início da formatação do footer */
