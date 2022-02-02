@@ -5,6 +5,7 @@
         width: 100%;
         display: flex;
         align-items: center;
+        border-bottom: 1px solid red;
     }
 
     .div-logo {
@@ -48,9 +49,19 @@
     }
 /* fim da formatação do header */
 
+
+
+
 /* início da formatação da section de apresentação (página inicial) */
-    
+    .section-apresentacao {
+        background-image: url("../imagens_e_gifs/gif.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 /* fim da formatação da section de apresentação (página inicial) */
+
+
+
 
 /* início da formatação do footer */
 
