@@ -102,6 +102,10 @@
         text-shadow: 1px 1px white;
         border-color: red;
     }
+
+    .apresentação button a {
+        text-decoration: none;
+    }
 /* fim da formatação da section de apresentação (página inicial) */
 
 
