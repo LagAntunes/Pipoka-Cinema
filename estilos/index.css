@@ -112,5 +112,11 @@
 
 
 /* início da formatação do footer */
-
+    footer {
+        background-color: black;
+        border-top: 1px solid red;
+        padding: 2%;
+        display: flex;
+        flex-direction: row;
+    }
 /* fim da formatação do footer */
