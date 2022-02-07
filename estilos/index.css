@@ -117,6 +117,50 @@
         border-top: 1px solid red;
         padding: 2%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+    }
+
+    .div-footer-titulo {
+        width: fit-content;
+        margin-left: 41%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .div-footer-titulo a {
+        text-decoration: none;
+        text-shadow: 0.5px 0.5px red;
+    }
+
+    .div-footer-titulo:hover .cor1 {
+        color: white;
+    }
+
+    .div-footer-titulo:hover .cor2 {
+        color: rgb(66, 80, 204);
+    }
+
+    .div-footer-autor {
+        margin-left: 32%;
+        margin-top: 0.1%;
+        margin-bottom: 1%;
+        text-shadow: 0.1px 0.1px red;
+        color: rgb(66, 80, 204);
+    }
+
+    .div-icones {
+        margin-left: 33.2%;
+    }
+
+    .div-icones i {
+        font-size: 3em;
+        margin-left: 5%;
+        color: white;
+        text-shadow: 1px 2px red;
+    }
+
+    .div-icones i:hover {
+        cursor: pointer;
+        color: rgb(66, 80, 204);
     }
 /* fim da formatação do footer */
