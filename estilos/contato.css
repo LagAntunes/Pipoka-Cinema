@@ -74,6 +74,9 @@
         display: flex;
         flex-direction: column;
         width: 70%;
+        padding: 1%;
+        border-radius: 15px;
+        border: 1px solid red;
         background-color: white;
     }
 /* fim da formatação da section de contato (página contato) */
