@@ -61,14 +61,14 @@
         background-attachment: fixed;
     }
 
-    .div-formulario {
+    .div-contato {
         display: flex;
         justify-content: center;
         height: 100%;
         width: 100%;
     }
 
-    .formulario {
+    .formulario-contato {
         margin-top: 15%;
         margin-bottom: 15%;
         display: flex;
