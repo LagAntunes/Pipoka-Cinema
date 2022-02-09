@@ -148,6 +148,15 @@
         border-radius: 15px;
         margin-bottom: 3%;
     }
+
+    #lista-horario {
+        color: rgb(66, 80, 204);
+        font-size: 1.2em;
+    }
+
+    #lista-horario span {
+        color: red;
+    }
 /* fim da formatação da section de contato (página contato) */
 
 
