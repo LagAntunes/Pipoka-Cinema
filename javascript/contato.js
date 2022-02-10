@@ -10,19 +10,22 @@
     let mensagemOculta4 = document.getElementById("texto-aviso4");
     let botaoEnvio = document.getElementById("botao-submit");
 
-    function clicaBotao() {
+    /*function clicaBotao() {
         alert("teste")
     }
-    botaoEnvio.addEventListener("click", clicaBotao)
+    botaoEnvio.addEventListener("click", clicaBotao)*/
 
-    /*function confirmaPreenchimento() {
-        if(botaoEnvio.click = true) {
-            if(nome.value == "") {
-                mensagemOculta1.innerText = "abacate"
-            }
+    botaoEnvio. onclick =  function confirmaEnvio() {
+        event.preventDefault()
+        if(nome.value == "") {
+            mensagemOculta1.innerText = "Por favor informe o seu nome";
+            mensagemOculta1.style.color = "red"
+            mensagemOculta1.style.backgroundColor = "salmon"
+            //setTimeout(confirmaEnvio, 1000)
+        } else if(nome.value != "") {
+            mensagemOculta1.innerText = "aaaaa"
         }
-    }*/
-
+    }
     
     
 /* fim da lógica JS da página de contato */
