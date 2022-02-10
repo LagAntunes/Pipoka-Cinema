@@ -57,20 +57,13 @@
             mensagem.style.borderWidth = "2px";
             mensagem.style.borderColor = "lightgreen";
         }
-    }
 
-    /*botaoEnvio.onclick =  function confirmaEnvio2() {
-        event.preventDefault()
-        if(email.value == "") {
-            mensagemOculta2.innerText = "Por favor informe o seu nome";
-            mensagemOculta2.style.color = "red";
-            mensagemOculta2.style.fontWeight = "bold";
-            email.style.borderColor = "red";
-        } else if(email.value != "")  {
-            mensagemOculta2.innerText = "✔️";
-            mensagemOculta2.style.fontSize = "1.2em";
-            email.style.borderColor = "lightgreen";
+        function alertTimer() {
+            if(nome.value != "" && email.value != "" && telefone.value != "" && mensagem.value != "") {
+                alert("Mensagem enviada com sucesso");
+                window.location.href= "../index.html";
+            }
         }
-    }*/
-    
+        setTimeout(alertTimer, 1000);
+    }
 /* fim da lógica JS da página de contato */
