@@ -19,11 +19,13 @@
         event.preventDefault()
         if(nome.value == "") {
             mensagemOculta1.innerText = "Por favor informe o seu nome";
-            mensagemOculta1.style.color = "red"
-            mensagemOculta1.style.backgroundColor = "salmon"
-            //setTimeout(confirmaEnvio, 1000)
+            mensagemOculta1.style.color = "red";
+            mensagemOculta1.style.fontWeight = "bold";
+            nome.style.borderColor = "red";
         } else if(nome.value != "") {
-            mensagemOculta1.innerText = "aaaaa"
+            mensagemOculta1.innerText = "✔️";
+            mensagemOculta1.style.fontSize = "1.2em";
+            nome.style.borderColor = "lightgreen"
         }
     }
     
