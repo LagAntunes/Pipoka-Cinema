@@ -88,6 +88,14 @@
         text-shadow: 0.7px 0.5px red;
     }
 
+    .display-formulario {
+        display: flex;
+    }
+
+    .display-formulario p {
+        margin-left: 1%;
+    }
+
     .formulario-contato label {
         margin-bottom: 0.5%;
         margin-top: 2%;
@@ -101,7 +109,7 @@
         border-radius: 5px;
         width: 70%;
         padding: 0.5%;
-        border-color: red;
+        border-color: rgb(221, 184, 89);
     }
 
     .formulario-contato #mensagem {
@@ -111,11 +119,12 @@
         min-height: 5%;
         border-radius: 5px;
         margin-bottom: 5%;
-        border-color: red;
+        border-color: rgb(221, 184, 89);
     }
 
     #botao-submit {
         width: 30%;
+        border-color: red;
     }
 
     .div-mapa {
