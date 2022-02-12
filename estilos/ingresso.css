@@ -74,7 +74,7 @@
         flex-direction: column;
         margin-left: 7%;
         height: 100%;
-        width: 80%;
+        width: 75%;
     }
 
     .titulo-ingresso {
@@ -132,7 +132,8 @@
 
     .div-disponibilidade {
         margin-left: 1%;
-        border: 1px solid rgb(241, 211, 211);
+        background-color: aqua;
+        display: none;
         width: 100%;
     }
 /* fim da formatação da section de ingressos (página ingresso)*/
