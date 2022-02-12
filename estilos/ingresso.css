@@ -53,9 +53,27 @@
 
 
 
+/* início da formatação da section de ingressos (página ingresso)*/
+    .section-ingresso {
+        background-image: url("../imagens_e_gifs/fundo-ingressos.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
 
+    .div-ingresso {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
 
-
+    .div-filme-ingresso {
+        margin-top: 15%;
+        margin-bottom: 15%;
+        border: 1px solid red;
+    }
+/* fim da formatação da section de ingressos (página ingresso)*/
 
 
 /* início da formatação do footer */
