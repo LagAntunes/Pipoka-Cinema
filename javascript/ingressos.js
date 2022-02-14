@@ -41,6 +41,5 @@
         spanFechaBloco2.onclick = function fechaBloco2() {
             blocoJohn1.style.display = "none"
         }
-
     /* fim do bloco do John */
 /* fim da lógica JS para a página de ingressos */
