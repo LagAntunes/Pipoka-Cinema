@@ -20,4 +20,12 @@
             blocoAlita1.style.display = "none"
         }
     /* fim do bloco da Alita */
+
+    /* início do bloco do John */
+        let saibaJohn = document.getElementById("saiba-wick");
+        let blocoJohn1 = document.getElementById("div-saiba-John");
+        let garantaJohn = document.getElementById("garanta-wick");
+        let blocoJohn2 = document.getElementById("div-ingresso-John");
+
+    /* fim do bloco do John */
 /* fim da lógica JS para a página de ingressos */
