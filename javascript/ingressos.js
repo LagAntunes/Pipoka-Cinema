@@ -19,6 +19,12 @@
         spanFechaBlocoAlita1.onclick = function fechaBlocoAlita1() {
             blocoAlita1.style.display = "none"
         }
+        
+        /* code below not working */
+        let spanFechaBlocoAlita2 = document.getElementById("span-fecha-bloco2");
+        spanFechaBlocoAlita2.onclick = function fechaBlocoAlita2() {
+            blocoAlita2.style.display = "none"
+        }
     /* fim do bloco da Alita */
 
     /* início do bloco do John */
