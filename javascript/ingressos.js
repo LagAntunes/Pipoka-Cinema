@@ -4,7 +4,7 @@
         let blocoAlita1 = document.getElementById("div-saiba-Alita");
         let garantaAlita = document.getElementById("garanta-alita");
         let blocoAlita2 = document.getElementById("div-ingresso-Alita");
-
+        
         saibaAlita.onclick = function chamaBlocoAlita1() {
             blocoAlita1.style.display = "flex"
             blocoAlita2.style.display = "none"
