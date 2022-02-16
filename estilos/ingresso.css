@@ -172,6 +172,23 @@
         height: 100%;
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .poltrona-itens {
+        border: 3px solid red;
+        border-radius: 15px;
+        padding: 4%;
+        font-size: 2em;
+        color: rgb(66, 80, 204);
+    }
+
+    .poltrona-itens:hover {
+        cursor: pointer;
+        border-color: rgb(66, 80, 204);
+        color: white;
+        background-color: red;
+        text-align: center;
     }
 /* fim da formatação da section de ingressos (página ingresso)*/
 
