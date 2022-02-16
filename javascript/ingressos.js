@@ -42,9 +42,14 @@
             blocoJohn1.style.display = "none"
         }
 
-        let spanFechaBlocoJohn1 = document.getElementById("span-fecha-bloco2");
+        let spanFechaBlocoJohn1 = document.getElementById("span-fecha-bloco-John1");
         spanFechaBlocoJohn1.onclick = function fechaBlocoJohn1() {
             blocoJohn1.style.display = "none"
+        }
+
+        let spanFechaBlocoJohn2 = document.getElementById("span-fecha-bloco-John2");
+        spanFechaBlocoJohn2.onclick = function fechaBlocoJohn2() {
+            blocoJohn2.style.display = "none"
         }
     /* fim do bloco do John */
 
