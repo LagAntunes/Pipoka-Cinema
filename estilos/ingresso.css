@@ -155,6 +155,24 @@
     .div-fecha-bloco span:hover {
         cursor: pointer;
     }
+
+    .display-compra {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .display-compra h3 {
+        color: rgb(66, 80, 204);
+        text-shadow: 1px 1px rgb(240, 224, 53);
+    }
+
+    .display-poltronas {
+        border: 1px solid red;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
 /* fim da formatação da section de ingressos (página ingresso)*/
 
 
