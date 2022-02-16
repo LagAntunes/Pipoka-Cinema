@@ -69,9 +69,14 @@
             blocoPirata1.style.display = "none"
         }
 
-        let spanFechaBlocoPiratas1 = document.getElementById("span-fecha-bloco3");
-        spanFechaBlocoPiratas1.onclick = function fechaBlocoJohn1() {
+        let spanFechaBlocoPiratas1 = document.getElementById("span-fecha-bloco-Piratas1");
+        spanFechaBlocoPiratas1.onclick = function fechaBlocoPiratas1() {
             blocoPirata1.style.display = "none"
+        }
+
+        let spanFechaBlocoPiratas2 = document.getElementById("span-fecha-bloco-Piratas2");
+        spanFechaBlocoPiratas2.onclick = function fechaBlocoPiratas2() {
+            blocoPirata2.style.display = "none"
         }
     /* fim do bloco dos Piratas */
 /* fim da lógica JS para a página de ingressos */
