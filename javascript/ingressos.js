@@ -32,10 +32,12 @@
         let poltronaAlita5 = document.getElementById("item-poltrona-Alita-5");
         let displayMensagem = document.getElementById("display-mensagem");
         let displayPreco = document.getElementById("display-preco");
+        let botaoPagamento = document.getElementById("botao-pagamento");
 
         poltronaAlita1.onclick = () => {
             displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaAlita1.innerText}`;
             displayPreco.innerText = "Pague pelo ingresso: 30,00";
+            botaoPagamento.style.display = "flex"
         }
 
         poltronaAlita2.onclick = () => {
