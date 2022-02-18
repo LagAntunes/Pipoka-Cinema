@@ -203,7 +203,14 @@
     #display-mensagem {
         width: 50%;
         font-size: 1.5em;
-        color: rgb(66, 80, 204) ;
+        color: rgb(66, 80, 204);
+        text-shadow: 1px 1px rgb(240, 224, 53);
+    }
+
+    #display-preco {
+        font-size: 1.5em;
+        color: rgb(236, 59, 59);
+        text-shadow: 1px 1px rgb(126, 118, 39);
     }
 /* fim da formatação da section de ingressos (página ingresso)*/
 
