@@ -24,6 +24,33 @@
         spanFechaBlocoAlita2.onclick = function fechaBlocoAlita2() {
             blocoAlita2.style.display = "none"
         }
+
+        let poltronaAlita1 = document.getElementById("item-poltrona-Alita-1");
+        let poltronaAlita2 = document.getElementById("item-poltrona-Alita-2");
+        let poltronaAlita3 = document.getElementById("item-poltrona-Alita-3");
+        let poltronaAlita4 = document.getElementById("item-poltrona-Alita-4");
+        let poltronaAlita5 = document.getElementById("item-poltrona-Alita-5");
+        let displayMensagem = document.getElementById("display-mensagem");
+
+        poltronaAlita1.onclick = () => {
+            displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaAlita1.innerText}`
+        }
+
+        poltronaAlita2.onclick = () => {
+            displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaAlita2.innerText}`
+        }
+
+        poltronaAlita3.onclick = () => {
+            displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaAlita3.innerText}`
+        }
+
+        poltronaAlita4.onclick = () => {
+            displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaAlita4.innerText}`
+        }
+
+        poltronaAlita5.onclick = () => {
+            displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaAlita5.innerText}`
+        }
     /* fim do bloco da Alita */
 
     /* início do bloco do John */

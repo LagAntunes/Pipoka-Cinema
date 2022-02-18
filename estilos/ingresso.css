@@ -190,6 +190,21 @@
         background-color: red;
         text-align: center;
     }
+
+    #display-pagamento {
+        border: 1px solid black;
+        margin-top: 3%;
+        width: 100%;
+        height: 100%;
+        padding: 2%;
+        display: flex;
+    }
+
+    #display-mensagem {
+        width: 50%;
+        font-size: 1.5em;
+        color: rgb(66, 80, 204) ;
+    }
 /* fim da formatação da section de ingressos (página ingresso)*/
 
 
