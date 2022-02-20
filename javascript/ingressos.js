@@ -33,46 +33,46 @@
         let poltronaAlita4 = document.getElementById("item-poltrona-Alita-4");
         let poltronaAlita5 = document.getElementById("item-poltrona-Alita-5");
         let displayEscondeAlita = document.getElementById("display-esconde-pagamento-Alita");
-        let displayMensagem = document.getElementById("display-mensagem");
-        let displayPreco = document.getElementById("display-preco");
-        let botaoPagamento = document.getElementById("botao-pagamento");
+        let displayMensagem1 = document.getElementById("display-mensagem-Alita");
+        let displayPreco1 = document.getElementById("display-preco-Alita");
+        let botaoPagamento1 = document.getElementById("botao-pagamento-Alita");
 
         poltronaAlita1.onclick = () => {
-            displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaAlita1.innerText}`;
-            displayPreco.innerText = "Pague pelo ingresso: 30,00";
-            botaoPagamento.style.display = "flex";
+            displayMensagem1.innerText = `Voce escolheu: poltrona numero ${poltronaAlita1.innerText}`;
+            displayPreco1.innerText = "Pague pelo ingresso: 30,00";
+            botaoPagamento1.style.display = "flex";
             displayEscondeAlita.style.display = "flex";
         }
 
         poltronaAlita2.onclick = () => {
-            displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaAlita2.innerText}`;
-            displayPreco.innerText = "Pague pelo ingresso: 30,00";
-            botaoPagamento.style.display = "flex";
+            displayMensagem1.innerText = `Voce escolheu: poltrona numero ${poltronaAlita2.innerText}`;
+            displayPreco1.innerText = "Pague pelo ingresso: 30,00";
+            botaoPagamento1.style.display = "flex";
             displayEscondeAlita.style.display = "flex";
         }
 
         poltronaAlita3.onclick = () => {
-            displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaAlita3.innerText}`;
-            displayPreco.innerText = "Pague pelo ingresso: 30,00";
-            botaoPagamento.style.display = "flex";
+            displayMensagem1.innerText = `Voce escolheu: poltrona numero ${poltronaAlita3.innerText}`;
+            displayPreco1.innerText = "Pague pelo ingresso: 30,00";
+            botaoPagamento1.style.display = "flex";
             displayEscondeAlita.style.display = "flex";
         }
 
         poltronaAlita4.onclick = () => {
-            displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaAlita4.innerText}`;
-            displayPreco.innerText = "Pague pelo ingresso: 30,00";
-            botaoPagamento.style.display = "flex";
+            displayMensagem1.innerText = `Voce escolheu: poltrona numero ${poltronaAlita4.innerText}`;
+            displayPreco1.innerText = "Pague pelo ingresso: 30,00";
+            botaoPagamento1.style.display = "flex";
             displayEscondeAlita.style.display = "flex";
         }
 
         poltronaAlita5.onclick = () => {
-            displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaAlita5.innerText}`;
-            displayPreco.innerText = "Pague pelo ingresso: 30,00";
-            botaoPagamento.style.display = "flex";
+            displayMensagem1.innerText = `Voce escolheu: poltrona numero ${poltronaAlita5.innerText}`;
+            displayPreco1.innerText = "Pague pelo ingresso: 30,00";
+            botaoPagamento1.style.display = "flex";
             displayEscondeAlita.style.display = "flex";
         }
 
-        botaoPagamento.onclick = () => {
+        botaoPagamento1.onclick = () => {
             alert("Compra realizada com sucesso");
         }
     /* fim do bloco da Alita */
@@ -109,6 +109,41 @@
         let poltronaJohn4 = document.getElementById("item-poltrona-John-4");
         let poltronaJohn5 = document.getElementById("item-poltrona-John-5");
         let displayEscondeJohn = document.getElementById("display-esconde-pagamento-John");
+
+        poltronaJohn1.onclick = () => {
+            displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaJohn1.innerText}`;
+            displayPreco.innerText = "Pague pelo ingresso: 30,00";
+            botaoPagamento.style.display = "flex";
+            displayEscondeAlita.style.display = "flex";
+        }
+
+        poltronaJohn2.onclick = () => {
+            displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaJohn2.innerText}`;
+            displayPreco.innerText = "Pague pelo ingresso: 30,00";
+            botaoPagamento.style.display = "flex";
+            displayEscondeAlita.style.display = "flex";
+        }
+
+        poltronaJohn3.onclick = () => {
+            displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaJohn3.innerText}`;
+            displayPreco.innerText = "Pague pelo ingresso: 30,00";
+            botaoPagamento.style.display = "flex";
+            displayEscondeAlita.style.display = "flex";
+        }
+
+        poltronaJohn4.onclick = () => {
+            displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaJohn4.innerText}`;
+            displayPreco.innerText = "Pague pelo ingresso: 30,00";
+            botaoPagamento.style.display = "flex";
+            displayEscondeAlita.style.display = "flex";
+        }
+
+        poltronaJohn5.onclick = () => {
+            displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaJohn5.innerText}`;
+            displayPreco.innerText = "Pague pelo ingresso: 30,00";
+            botaoPagamento.style.display = "flex";
+            displayEscondeAlita.style.display = "flex";
+        }
     /* fim do bloco do John */
 
     /* início do bloco dos Piratas */

@@ -194,7 +194,7 @@
         display: none;
     }
 
-    #display-pagamento {
+    #display-pagamento-Alita {
         margin-top: 3%;
         width: 100%;
         height: 50%;
@@ -202,20 +202,20 @@
         display: flex;
     }
 
-    #display-mensagem {
+    #display-mensagem-Alita {
         width: 50%;
         font-size: 1.5em;
         color: rgb(66, 80, 204);
         text-shadow: 1px 1px rgb(240, 224, 53);
     }
 
-    #display-preco {
+    #display-preco-Alita {
         font-size: 1.5em;
         color: rgb(236, 59, 59);
         text-shadow: 1px 1px rgb(126, 118, 39);
     }
 
-    #botao-pagamento {
+    #botao-pagamento-Alita {
         margin-top: 15%;
         width: 75%;
         color: rgb(66, 80, 204);
@@ -223,7 +223,7 @@
         display: none;
     }
 
-    #botao-pagamento:hover {
+    #botao-pagamento-Alita:hover {
         color: white;
         border-color:rgb(66, 80, 204);
     }
