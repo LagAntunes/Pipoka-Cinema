@@ -167,7 +167,6 @@
     }
 
     .display-poltronas {
-        border: 1px solid red;
         width: 100%;
         height: 100%;
         display: flex;
@@ -196,7 +195,6 @@
     }
 
     #display-pagamento {
-        border: 1px solid black;
         margin-top: 3%;
         width: 100%;
         height: 50%;

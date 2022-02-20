@@ -47,21 +47,29 @@
         poltronaAlita2.onclick = () => {
             displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaAlita2.innerText}`;
             displayPreco.innerText = "Pague pelo ingresso: 30,00";
+            botaoPagamento.style.display = "flex";
+            displayEscondeAlita.style.display = "flex";
         }
 
         poltronaAlita3.onclick = () => {
             displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaAlita3.innerText}`;
             displayPreco.innerText = "Pague pelo ingresso: 30,00";
+            botaoPagamento.style.display = "flex";
+            displayEscondeAlita.style.display = "flex";
         }
 
         poltronaAlita4.onclick = () => {
             displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaAlita4.innerText}`;
             displayPreco.innerText = "Pague pelo ingresso: 30,00";
+            botaoPagamento.style.display = "flex";
+            displayEscondeAlita.style.display = "flex";
         }
 
         poltronaAlita5.onclick = () => {
             displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaAlita5.innerText}`;
             displayPreco.innerText = "Pague pelo ingresso: 30,00";
+            botaoPagamento.style.display = "flex";
+            displayEscondeAlita.style.display = "flex";
         }
     /* fim do bloco da Alita */
 
