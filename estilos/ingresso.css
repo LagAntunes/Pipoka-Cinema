@@ -191,6 +191,10 @@
         text-align: center;
     }
 
+    #display-esconde-pagamento-Alita {
+        display: none;
+    }
+
     #display-pagamento {
         border: 1px solid black;
         margin-top: 3%;
