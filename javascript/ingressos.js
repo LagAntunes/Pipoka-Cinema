@@ -71,6 +71,10 @@
             botaoPagamento.style.display = "flex";
             displayEscondeAlita.style.display = "flex";
         }
+
+        botaoPagamento.onclick = () => {
+            alert("Compra realizada com sucesso");
+        }
     /* fim do bloco da Alita */
 
     /* início do bloco do John */
