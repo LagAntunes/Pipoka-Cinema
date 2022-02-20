@@ -102,6 +102,13 @@
         spanFechaBlocoJohn2.onclick = function fechaBlocoJohn2() {
             blocoJohn2.style.display = "none";
         }
+
+        let poltronaJohn1 = document.getElementById("item-poltrona-John-1");
+        let poltronaJohn2 = document.getElementById("item-poltrona-John-2");
+        let poltronaJohn3 = document.getElementById("item-poltrona-John-3");
+        let poltronaJohn4 = document.getElementById("item-poltrona-John-4");
+        let poltronaJohn5 = document.getElementById("item-poltrona-John-5");
+        let displayEscondeJohn = document.getElementById("display-esconde-pagamento-John");
     /* fim do bloco do John */
 
     /* início do bloco dos Piratas */
