@@ -72,7 +72,7 @@
     }
 
     botaoPagamento1.onclick = () => {
-        alert("Compra realizada com sucesso");
+        alert("Retire seu ingresso em uma de nossas unidades");
     }
 /* fim do bloco da Alita */
 

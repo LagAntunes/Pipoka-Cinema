@@ -223,7 +223,7 @@
         display: none;
     }
 
-    #botao-pagamento-Alita:hover {
+    #botao-pagamento-Alita:hover, #botao-pagamento-John:hover, #botao-pagamento-Piratas:hover {
         color: white;
         border-color:rgb(66, 80, 204);
     }

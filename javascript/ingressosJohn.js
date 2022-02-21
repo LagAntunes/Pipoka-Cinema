@@ -7,6 +7,7 @@
     saibaJohn.onclick = function chamaBlocoJohn1() {
         blocoJohn1.style.display = "flex";
         blocoJohn2.style.display = "none";
+        displayEscondeJohn.style.display = "none";
     }
 
     garantaJohn.onclick = function chamaBlocoJohn2() {
@@ -22,6 +23,7 @@
     let spanFechaBlocoJohn2 = document.getElementById("span-fecha-bloco-John2");
     spanFechaBlocoJohn2.onclick = function fechaBlocoJohn2() {
         blocoJohn2.style.display = "none";
+        displayEscondeJohn.style.display = "none";
     }
 
     let poltronaJohn1 = document.getElementById("item-poltrona-John-1");
@@ -67,5 +69,9 @@
         displayPreco2.innerText = "Pague pelo ingresso: 30,00";
         botaoPagamento2.style.display = "flex";
         displayEscondeJohn.style.display = "flex";
+    }
+
+    botaoPagamento2.onclick = () => {
+        alert("Retire seu ingresso em uma de nossas unidades");
     }
 /* fim do bloco do John */
