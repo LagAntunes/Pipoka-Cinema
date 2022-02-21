@@ -73,5 +73,6 @@
 
     botaoPagamento2.onclick = () => {
         alert("Retire seu ingresso em uma de nossas unidades");
+        window.location.href= "../index.html";
     }
 /* fim do bloco do John */
