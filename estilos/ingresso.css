@@ -190,11 +190,11 @@
         text-align: center;
     }
 
-    #display-esconde-pagamento-Alita {
+    #display-esconde-pagamento-Alita, #display-esconde-pagamento-John, #display-esconde-pagamento-Piratas {
         display: none;
     }
 
-    #display-pagamento-Alita {
+    #display-pagamento-Alita, #display-pagamento-John, #display-pagamento-Piratas {
         margin-top: 3%;
         width: 100%;
         height: 50%;
@@ -202,20 +202,20 @@
         display: flex;
     }
 
-    #display-mensagem-Alita {
+    #display-mensagem-Alita, #display-mensagem-John, #display-mensagem-Piratas {
         width: 50%;
         font-size: 1.5em;
         color: rgb(66, 80, 204);
         text-shadow: 1px 1px rgb(240, 224, 53);
     }
 
-    #display-preco-Alita {
+    #display-preco-Alita, #display-preco-John, #display-preco-Piratas {
         font-size: 1.5em;
         color: rgb(236, 59, 59);
         text-shadow: 1px 1px rgb(126, 118, 39);
     }
 
-    #botao-pagamento-Alita {
+    #botao-pagamento-Alita, #botao-pagamento-John, #botao-pagamento-Piratas {
         margin-top: 15%;
         width: 75%;
         color: rgb(66, 80, 204);

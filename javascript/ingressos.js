@@ -109,40 +109,43 @@
         let poltronaJohn4 = document.getElementById("item-poltrona-John-4");
         let poltronaJohn5 = document.getElementById("item-poltrona-John-5");
         let displayEscondeJohn = document.getElementById("display-esconde-pagamento-John");
+        let displayMensagem2 = document.getElementById("display-mensagem-John");
+        let displayPreco2 = document.getElementById("display-preco-John");
+        let botaoPagamento2 = document.getElementById("botao-pagamento-John");
 
         poltronaJohn1.onclick = () => {
-            displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaJohn1.innerText}`;
-            displayPreco.innerText = "Pague pelo ingresso: 30,00";
-            botaoPagamento.style.display = "flex";
-            displayEscondeAlita.style.display = "flex";
+            displayMensagem2.innerText = `Voce escolheu: poltrona numero ${poltronaJohn1.innerText}`;
+            displayPreco2.innerText = "Pague pelo ingresso: 30,00";
+            botaoPagamento2.style.display = "flex";
+            displayEscondeJohn.style.display = "flex";
         }
 
         poltronaJohn2.onclick = () => {
-            displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaJohn2.innerText}`;
-            displayPreco.innerText = "Pague pelo ingresso: 30,00";
-            botaoPagamento.style.display = "flex";
-            displayEscondeAlita.style.display = "flex";
+            displayMensagem2.innerText = `Voce escolheu: poltrona numero ${poltronaJohn2.innerText}`;
+            displayPreco2.innerText = "Pague pelo ingresso: 30,00";
+            botaoPagamento2.style.display = "flex";
+            displayEscondeJohn.style.display = "flex";
         }
 
         poltronaJohn3.onclick = () => {
-            displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaJohn3.innerText}`;
-            displayPreco.innerText = "Pague pelo ingresso: 30,00";
-            botaoPagamento.style.display = "flex";
-            displayEscondeAlita.style.display = "flex";
+            displayMensagem2.innerText = `Voce escolheu: poltrona numero ${poltronaJohn3.innerText}`;
+            displayPreco2.innerText = "Pague pelo ingresso: 30,00";
+            botaoPagamento2.style.display = "flex";
+            displayEscondeJohn.style.display = "flex";
         }
 
         poltronaJohn4.onclick = () => {
-            displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaJohn4.innerText}`;
-            displayPreco.innerText = "Pague pelo ingresso: 30,00";
-            botaoPagamento.style.display = "flex";
-            displayEscondeAlita.style.display = "flex";
+            displayMensagem2.innerText = `Voce escolheu: poltrona numero ${poltronaJohn4.innerText}`;
+            displayPreco2.innerText = "Pague pelo ingresso: 30,00";
+            botaoPagamento2.style.display = "flex";
+            displayEscondeJohn.style.display = "flex";
         }
 
         poltronaJohn5.onclick = () => {
-            displayMensagem.innerText = `Voce escolheu: poltrona numero ${poltronaJohn5.innerText}`;
-            displayPreco.innerText = "Pague pelo ingresso: 30,00";
-            botaoPagamento.style.display = "flex";
-            displayEscondeAlita.style.display = "flex";
+            displayMensagem2.innerText = `Voce escolheu: poltrona numero ${poltronaJohn5.innerText}`;
+            displayPreco2.innerText = "Pague pelo ingresso: 30,00";
+            botaoPagamento2.style.display = "flex";
+            displayEscondeJohn.style.display = "flex";
         }
     /* fim do bloco do John */
 
