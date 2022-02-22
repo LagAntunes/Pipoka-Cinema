@@ -28,7 +28,7 @@
         width: 100%;
         justify-content: space-around;
         margin-top: 2%;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
     }
 
     .plano-comum {
@@ -37,6 +37,7 @@
         padding: 2%;
         background-color: lightgray;
         width: 30%;
+        font-weight: bolder;
     }
 
     .plano-comum h2 {
