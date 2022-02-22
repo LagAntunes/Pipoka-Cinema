@@ -4,5 +4,30 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo-cadastro {
+        margin-top: 22%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        width: 50%;
+        color: rgb(68, 78, 167);
+        text-shadow: 1px 1px rgb(221, 184, 89);
+    }
+
+    .span-titulo {
+        color: rgb(207, 176, 2);
+        text-shadow: 1px 1px black;
+    }
+
+    .div-display-cadastro {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 2%;
+        margin-bottom: 5%;
     }
 /* fim da formatação da página de cadastro */
