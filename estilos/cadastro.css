@@ -30,4 +30,44 @@
         margin-top: 2%;
         margin-bottom: 5%;
     }
+
+    .plano-comum {
+        border: 2px solid gray;
+        border-radius: 10px;
+        padding: 2%;
+        background-color: lightgray;
+        width: 30%;
+    }
+
+    .plano-comum h2 {
+        color: white;
+        text-shadow: 1px 1px black;
+    }
+
+    .plano-premium {
+        border: 2px solid red;
+        border-radius: 10px;
+        padding: 2%;
+        background: linear-gradient(45deg, rgb(92, 92, 212), rgb(116, 126, 219), rgb(199, 179, 65), white);
+        width: 30%;
+        color: white;
+        font-weight: bolder;
+    }
+
+    .plano-premium h2 {
+        color: red;
+        text-shadow: 1px 1px rgb(207, 176, 2);
+    }
+
+    .span-lista {
+        color: red;
+    }
+
+    .plano-premium button {
+        font-weight: bolder;
+    }
+
+    .plano-premium button:hover {
+        color: rgb(224, 216, 165);
+    }
 /* fim da formatação da página de cadastro */
