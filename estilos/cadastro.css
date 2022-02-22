@@ -1,0 +1,8 @@
+/* início da formatação da página de cadastro */
+    .section-cadastro {
+        background-image: url("../imagens_e_gifs/fundo-cadastro.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+/* fim da formatação da página de cadastro */
