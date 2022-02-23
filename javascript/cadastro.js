@@ -24,8 +24,38 @@
                 document.getElementById("endereco").style.color = "red";
                 document.getElementById("endereco").style.fontWeight = "bold";
                 document.getElementById("endereco").style.borderColor = "red";
+
+                document.getElementById("bairro").value = "Favor informar um bairro existente";
+                document.getElementById("bairro").style.color = "red";
+                document.getElementById("bairro").style.fontWeight = "bold";
+                document.getElementById("bairro").style.borderColor = "red";
+
+                document.getElementById("cidade").value = "Favor informar uma cidade existente";
+                document.getElementById("cidade").style.color = "red";
+                document.getElementById("cidade").style.fontWeight = "bold";
+                document.getElementById("cidade").style.borderColor = "red";
+
+                document.getElementById("estado").value = "Favor informar um estado existente";
+                document.getElementById("estado").style.color = "red";
+                document.getElementById("estado").style.fontWeight = "bold";
+                document.getElementById("estado").style.borderColor = "red";
             } else {
                 PreencherFormulario(DadosDoCEP);
+                document.getElementById("endereco").style.borderColor = "lightgreen";
+                document.getElementById("endereco").style.color = "rgb(92, 92, 212)";
+                document.getElementById("endereco").style.fontWeight = "bold";
+
+                document.getElementById("bairro").style.borderColor = "lightgreen";
+                document.getElementById("bairro").style.color = "rgb(92, 92, 212)";
+                document.getElementById("bairro").style.fontWeight = "bold";
+
+                document.getElementById("cidade").style.borderColor = "lightgreen";
+                document.getElementById("cidade").style.color = "rgb(92, 92, 212)";
+                document.getElementById("cidade").style.fontWeight = "bold";
+
+                document.getElementById("estado").style.borderColor = "lightgreen";
+                document.getElementById("estado").style.color = "rgb(92, 92, 212)";
+                document.getElementById("estado").style.fontWeight = "bold";
             }
         })
     /* fim da API do CEP */
