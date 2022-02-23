@@ -18,7 +18,15 @@
             const url = `http://viacep.com.br/ws/${CEP}/json/`;
             const dados = await fetch(url);
             const DadosDoCEP = await dados.json();
-            PreencherFormulario(DadosDoCEP);
+
+            if(DadosDoCEP.hasOwnProperty("erro")) {
+                document.getElementById("endereco").value = "Favor informar um endereço existente";
+                document.getElementById("endereco").style.color = "red";
+                document.getElementById("endereco").style.fontWeight = "bold";
+                document.getElementById("endereco").style.borderColor = "red";
+            } else {
+                PreencherFormulario(DadosDoCEP);
+            }
         })
     /* fim da API do CEP */
 /* fim da lógica JS da página de cadastro */
