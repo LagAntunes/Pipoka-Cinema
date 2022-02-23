@@ -1,6 +1,12 @@
 /* início da lógica JS da página de cadastro */
     let botaoPremium = document.getElementById("botao-premium");
+    let displayCadastro = document.querySelector(".div-display-cadastro");
+    let displayFormulario = document.getElementById("display-cadastro-formulario");
 
+    botaoPremium.addEventListener("click", () => {
+        displayCadastro.style.display = "none";
+        displayFormulario.style.display = "flex";
+    })
 
 
     /* início da API do CEP */

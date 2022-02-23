@@ -72,6 +72,10 @@
         color: rgb(224, 216, 165);
     }
 
+    #display-cadastro-formulario {
+        display: none;
+    }
+
     .div-cadastro-formulario {
         border: 2px solid black;
         display: flex;
@@ -79,4 +83,5 @@
         width: 60%;
         margin-left: 20%;
     }
+
 /* fim da formatação da página de cadastro */
