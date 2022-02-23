@@ -71,4 +71,12 @@
     .plano-premium button:hover {
         color: rgb(224, 216, 165);
     }
+
+    .div-cadastro-formulario {
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin-left: 20%;
+    }
 /* fim da formatação da página de cadastro */
