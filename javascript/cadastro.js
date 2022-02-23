@@ -2,10 +2,16 @@
     let botaoPremium = document.getElementById("botao-premium");
     let displayCadastro = document.querySelector(".div-display-cadastro");
     let displayFormulario = document.getElementById("display-cadastro-formulario");
+    let fechaFormulario = document.getElementById("fecha-formulario");
 
     botaoPremium.addEventListener("click", () => {
         displayCadastro.style.display = "none";
         displayFormulario.style.display = "flex";
+    })
+
+    fechaFormulario.addEventListener("click", () => {
+        displayCadastro.style.display = "flex";
+        displayFormulario.style.display = "none";
     })
 
 

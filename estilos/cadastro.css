@@ -76,12 +76,23 @@
         display: none;
     }
 
+    #fecha-formulario {
+        border: 1px solid red;
+        width: fit-content;
+        margin-left: 95%;
+    }
+
+    #fecha-formulario:hover {
+        cursor: pointer;
+    }
+
     .div-cadastro-formulario {
         border: 2px solid black;
         display: flex;
         flex-direction: column;
         width: 60%;
         margin-left: 20%;
+        padding: 1%;
     }
 
 /* fim da formatação da página de cadastro */
