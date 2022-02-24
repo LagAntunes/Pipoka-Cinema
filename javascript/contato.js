@@ -61,7 +61,6 @@
         function alertTimer() {
             if(nome.value != "" && email.value != "" && telefone.value != "" && mensagem.value != "") {
                 alert("Mensagem enviada com sucesso");
-                window.location.href= "../index.html";
             }
         }
         setTimeout(alertTimer, 1000);
