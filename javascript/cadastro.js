@@ -21,7 +21,7 @@
 
     botaoCadastraUsuario.addEventListener("click", () => {
         if(endereco.value != "" && bairro.value != "" && cidade.value != "" && estado.value != "") {
-            alert("aa")
+            alert("Seu cadastro foi solicitado. Aguarde o retorno em sua caixa de mensagens.");
         } else {
 
         }
