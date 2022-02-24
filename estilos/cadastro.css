@@ -116,4 +116,12 @@
         border-radius: 15px;
         padding: 1%;
     }
+
+    .formulario button {
+        font-weight: bold;
+    }
+
+    .botao-envia-formulario {
+        margin-top: 3%;
+    }
 /* fim da formatação da página de cadastro */
