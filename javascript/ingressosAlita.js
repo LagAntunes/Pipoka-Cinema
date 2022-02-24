@@ -73,7 +73,7 @@
 
     botaoPagamento1.onclick = () => {
         alert("Retire seu ingresso em uma de nossas unidades");
-        window.location.href= "../index.html";
+        window.location.href= "./index.html";
     }
 /* fim do bloco da Alita */
 
