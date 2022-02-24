@@ -76,8 +76,20 @@
         display: none;
     }
 
+    .div-cadastro-formulario {
+        border: 3px solid rgb(92, 92, 212);
+        border-radius: 15px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 60%;
+        margin-left: 20%;
+        margin-bottom: 7%;
+        padding: 1%;
+    }
+
     #fecha-formulario {
-        border: 1px solid red;
         width: fit-content;
         margin-left: 95%;
     }
@@ -86,13 +98,22 @@
         cursor: pointer;
     }
 
-    .div-cadastro-formulario {
-        border: 2px solid black;
-        display: flex;
-        flex-direction: column;
-        width: 60%;
-        margin-left: 20%;
-        padding: 1%;
+    .titulo-formulario {
+        color: rgb(202, 40, 40);
+        text-shadow: 1.5px 1.5px rgb(13, 13, 145);
     }
 
+    .formulario label {
+        margin-top: 3%;
+        font-size: 1.2em;
+    }
+
+    .formulario input {
+        width: 60%;
+        color: rgb(92, 92, 212);
+        font-weight: bold;
+        border-color: rgb(13, 13, 145);
+        border-radius: 15px;
+        padding: 1%;
+    }
 /* fim da formatação da página de cadastro */

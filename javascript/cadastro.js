@@ -53,19 +53,19 @@
                 document.getElementById("estado").style.borderColor = "red";
             } else {
                 PreencherFormulario(DadosDoCEP);
-                document.getElementById("endereco").style.borderColor = "lightgreen";
+                document.getElementById("endereco").style.borderColor = "rgb(13, 13, 145)";
                 document.getElementById("endereco").style.color = "rgb(92, 92, 212)";
                 document.getElementById("endereco").style.fontWeight = "bold";
 
-                document.getElementById("bairro").style.borderColor = "lightgreen";
+                document.getElementById("bairro").style.borderColor = "rgb(13, 13, 145)";
                 document.getElementById("bairro").style.color = "rgb(92, 92, 212)";
                 document.getElementById("bairro").style.fontWeight = "bold";
 
-                document.getElementById("cidade").style.borderColor = "lightgreen";
+                document.getElementById("cidade").style.borderColor = "rgb(13, 13, 145)";
                 document.getElementById("cidade").style.color = "rgb(92, 92, 212)";
                 document.getElementById("cidade").style.fontWeight = "bold";
 
-                document.getElementById("estado").style.borderColor = "lightgreen";
+                document.getElementById("estado").style.borderColor = "rgb(13, 13, 145)";
                 document.getElementById("estado").style.color = "rgb(92, 92, 212)";
                 document.getElementById("estado").style.fontWeight = "bold";
             }
