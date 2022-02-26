@@ -40,7 +40,7 @@
         botaoCEP.addEventListener("click", async() => {
             event.preventDefault();
             let CEP = document.getElementById("CEP").value;
-            const url = `http://viacep.com.br/ws/${CEP}/json/`;
+            const url = `https://viacep.com.br/ws/${CEP}/json/`;
             const dados = await fetch(url);
             const DadosDoCEP = await dados.json();
 
